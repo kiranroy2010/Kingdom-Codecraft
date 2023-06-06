@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="assets/vendors/themify-icons/css/themify-icons.css">
     <!-- Bootstrap + LeadMark main styles -->
 	<link rel="stylesheet" href="assets/css/leadmark.css">
+    <link rel="stylesheet" href="assets/css/pulsating-wa.css">
+
 </head>
 <body data-spy="scroll" data-target=".navbar" data-offset="40" id="home">
 
@@ -17,7 +19,7 @@
     <nav class="navbar custom-navbar navbar-expand-md navbar-light fixed-top" data-spy="affix" data-offset-top="10">
         <div class="container">
             <a class="navbar-brand" href="#">
-                <img src="assets/imgs/logo.svg" alt="">
+                <img src="assets/imgs/VectorWhiteKingdom.png" alt="Kingdom CodeCraft">
             </a>
             <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -63,6 +65,16 @@
         <div class="mouse-icon"><div class="wheel"></div></div>
     </header>
     <!-- End Of Page Header -->
+
+    <!-- pulsating-wa -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <a class="float-button" target="_blank" href="https://api.whatsapp.com/send?phone=+917090982729&text=Hello%2C%20I%20would%20like%20to%20discuss%20further%20on%20the%20service%20offered%20by%20your%20company.%20Kindly%20contact%20me.%20Thanks%20%F0%9F%98%8A">
+  <i class="fa fa-whatsapp" aria-hidden="true"></i>
+  <span>Chat with us<span>
+</a>
+
+        <!-- pulsating-wa -->
+
 
     <!-- Service Section -->
     <section  id="service" class="section pt-0">
@@ -453,7 +465,7 @@
             </div>
             <!-- Page Footer -->
             <footer class="mt-5 py-4 border-top border-secondary">
-                <p class="mb-0 small">&copy; <script>document.write(new Date().getFullYear())</script>, LeadMark Created By <a href="https://www.devcrud.com" target="_blank">DevCrud.</a>  All rights reserved </p>     
+                <p class="mb-0 small">&copy; <script>document.write(new Date().getFullYear())</script>, Developed By <a href="https://www.devcrud.com" target="_blank">DevCrud.</a>  All rights reserved </p>     
             </footer>
             <!-- End of Page Footer -->  
         </div>
@@ -472,9 +484,9 @@
     <!-- LeadMark js -->
     <script src="assets/js/leadmark.js"></script>
 
-    <script>
-        particlesJS("particles-js", {"particles":{"number":{"value":400,"density":{"enable":true,"value_area":800}},"color":{"value":"#ffffff"},"shape":{"type":"circle","stroke":{"width":0,"color":"#000000"},"polygon":{"nb_sides":5},"image":{"src":"img/github.svg","width":100,"height":100}},"opacity":{"value":0.5,"random":true,"anim":{"enable":false,"speed":1,"opacity_min":0.1,"sync":false}},"size":{"value":10,"random":true,"anim":{"enable":false,"speed":40,"size_min":0.1,"sync":false}},"line_linked":{"enable":false,"distance":500,"color":"#ffffff","opacity":0.4,"width":2},"move":{"enable":true,"speed":6,"direction":"bottom","random":false,"straight":false,"out_mode":"out","bounce":false,"attract":{"enable":false,"rotateX":600,"rotateY":1200}}},"interactivity":{"detect_on":"canvas","events":{"onhover":{"enable":true,"mode":"repulse"},"onclick":{"enable":true,"mode":"repulse"},"resize":true},"modes":{"grab":{"distance":400,"line_linked":{"opacity":0.5}},"bubble":{"distance":400,"size":4,"duration":0.3,"opacity":1,"speed":3},"repulse":{"distance":200,"duration":0.4},"push":{"particles_nb":4},"remove":{"particles_nb":2}}},"retina_detect":true});var count_particles, stats, update; stats = new Stats; stats.setMode(0); stats.domElement.style.position = 'absolute'; stats.domElement.style.left = '0px'; stats.domElement.style.top = '0px'; document.body.appendChild(stats.domElement); count_particles = document.querySelector('.js-count-particles'); update = function() { stats.begin(); stats.end(); if (window.pJSDom[0].pJS.particles && window.pJSDom[0].pJS.particles.array) { count_particles.innerText = window.pJSDom[0].pJS.particles.array.length; } requestAnimationFrame(update); }; requestAnimationFrame(update);;
-    </script>
+     <!-- Particle js -->
+     <script src="assets/js/particle.js"></script>
+
 
 </body>
 </html>

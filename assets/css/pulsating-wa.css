@@ -1,0 +1,58 @@
+.float-button {
+    text-decoration: none;
+    position: fixed;
+    padding: 10px;
+    padding-right: 15px;
+    bottom: 30px;
+    right: 30px;
+    color: #fff;
+    background-color: #25D366;
+    border-radius: 25px 30px 5px 25px;
+    z-index: 100;
+    font-family: Arial;
+    font-size: 17px;
+    animation: pulsating 1.5s infinite;
+    box-shadow: 0 0 0 0 #42db87;
+  }
+  
+  .float-button:hover {
+    background-color: #128C7E;
+    color: #fff;
+  }
+  
+  .fa-whatsapp {
+    font-size: 20px !important;
+    padding-right: 5px;
+    padding-left: 5px;
+  }
+  
+  @keyframes pulsating {
+    0% {
+      box-shadow: 0 0 0 0 rgba(66, 219, 135, 0.4);
+    }
+    70% {
+      box-shadow: 0 0 0 10px rgba(66, 219, 135, 0);
+    }
+    100% {
+      box-shadow: 0 0 0 0 rgba(66, 219, 135, 0);
+    }
+  }
+  
+  @media screen and (max-width: 545px) {
+    span {
+      display: none;
+    }
+  
+    .float-button {
+      bottom: 15px;
+      right: 15px;
+      width: 45px;
+      border-radius: 20px 20px 5px 20px;
+    }
+  
+    .fa-whatsapp {
+      font-size: 22px !important;
+      padding: 4px;
+    }
+  }
+  

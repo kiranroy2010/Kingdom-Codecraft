@@ -1,17 +1,4 @@
 @charset "UTF-8";
-/*!
-=========================================================
-* LeadMark Landing page
-=========================================================
-
-* Copyright: 2019 DevCRUD (https://devcrud.com)
-* Licensed: (https://devcrud.com/licenses)
-* Coded by www.devcrud.com
-
-=========================================================
-
-* The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
-*/
 @import url("https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i");
 :root {
   --blue: #007bff;
@@ -4975,7 +4962,6 @@ input[type="button"].btn-block {
 
 .navbar-light .navbar-toggler {
   color: rgba(0, 0, 0, 0.8);
-  border-color: rgba(0, 0, 0, 0.1);
 }
 
 .navbar-light .navbar-toggler-icon {
@@ -11210,7 +11196,7 @@ textarea.form-control {
 }
 
 .navbar .navbar-brand img {
-  width: 60px;
+  width: 100px;
 }
 
 .navbar .nav-link {
@@ -11245,6 +11231,10 @@ textarea.form-control {
 
 .navbar.custom-navbar.affix .nav-link:hover {
   color: #000;
+}
+
+.navbar.custom-navbar.affix .navbar-brand img{
+  filter: brightness(0%);
 }
 
 .pagination .page-item {
@@ -11502,6 +11492,7 @@ textarea.form-control {
   font-size: calc(13px + (18 - 13) * ((100vw - 320px) / (1200 - 320)));
   font-weight: 400;
   margin-bottom: 0;
+  padding: 10px;
   letter-spacing: 8px;
   word-spacing: 10px;
   text-align: center;
