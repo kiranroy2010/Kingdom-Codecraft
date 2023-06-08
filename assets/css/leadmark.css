@@ -11790,3 +11790,33 @@ textarea.form-control {
   }
 }
 
+/* Send Animation */
+
+@keyframes loading {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.sent-icon {
+  display: none;
+  color: white;
+  margin-right: 5px;
+}
+
+.loading-icon {
+  display: none;
+  animation: loading 9000ms infinite linear;
+}
+
+.sending {
+  pointer-events: none;
+}
+
+
+.disable-interaction {
+  pointer-events: none;
+}
